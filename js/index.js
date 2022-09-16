@@ -4,7 +4,7 @@ let result = document.getElementById("show_text");
 // Declare a funcion that recive a value from button and return it and next one if pressed more
 function typeValue(numberOrSymbol){
 
-    document.getElementById("show_text").value += numberOrSymbol;
+    result.value += numberOrSymbol;
 
 }
 //Need function for delete last number and call it on DEL button
@@ -22,7 +22,7 @@ function showEmpty(){
     result.value = "";
 
 }
-//Need funcion for do my calculate (Only for this time I use eval)
+//Need funcion for do my calculate (Only for this time I use eval! Never do it please)
 
 function giveMeResult(){
  
