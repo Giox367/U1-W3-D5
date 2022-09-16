@@ -2,7 +2,7 @@
     height: 100vh;
     display: flex;
     position:relative; 
-    background-image: url("../img/imagebg.jpeg");
+    background-image: url("/assets/img/imagebg.jpeg");
     background-repeat: no-repeat;
     background-size: 1700px;
 }
@@ -11,7 +11,7 @@
     display:flex;
     flex-direction: column;
     position:absolute;
-    background-image: url("../img/bgofcalc.jpeg");
+    background-image: url("/assets/img/bgofcalc.jpeg");
     background-position-x: 50%;
     background-position-y: 70%;
     width: 330px;
