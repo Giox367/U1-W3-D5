@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Calcolatrice semplice e facile" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Calcolatrice 2.0</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="calculator">
+        <div id="imput_div">
+        <input type="text" id="show_text" placeholder="0"></input>
+    </div>
+    <div id="buttons">
+        <button  onclick="deleteLast()">C</button>
+        <button  onclick="showEmpty()">Del</button>
+   
+        <button   value="%" onclick="typeValue('%')">%</button>
+        <button   value="/" onclick="typeValue('/')">/</button>
+        <button   class="small_button" value="9" onclick="typeValue(9)">9</button>
+        <button  class="small_button
+        " value="8" onclick="typeValue(8)">8</button>
+        <button  class="small_button
+        " value="7" onclick="typeValue(7)">7</button>
+        <button   value="+" onclick="typeValue('+')">*</button>
+        <button  class="small_button
+        " value="6" onclick="typeValue(6)">6</button>
+        <button  class="small_button
+        " value="5" onclick="typeValue(5)">5</button>
+        <button  class="small_button
+        " value="4" onclick="typeValue(4)">4</button>
+        <button   value="-" onclick="typeValue('-')">-</button>
+        <button  class="small_button
+        " value="3" onclick="typeValue(3)">3</button>
+        <button  class="small_button
+        " value="2" onclick="typeValue(2)">2</button>
+        <button  class="small_button
+        " value="1" onclick="typeValue(1)">1</button>
+        <button   value="+" onclick="typeValue('+')">+</button>
+        <button   value="." onclick="typeValue('.')">,</button>
+        <button class="small_button"  value="0" onclick="typeValue(0)">0</button>
+        <button  class="equality" onclick="giveMeResult()">=</button>
+      </div>
+      </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+#container{
+    height: 100vh;
+    display: flex;
+    position:relative; 
+    background-image: url("../img/imagebg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1700px;
+}
+
+#calculator{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    background-image: url("../img/bgofcalc.jpeg");
+    background-position-x: 50%;
+    background-position-y: 70%;
+    width: 330px;
+    top:28vh;
+    right:47vw;
+    border: 7px solid rgb(159, 142, 191);
+    padding: 45px;
+    border-radius: 5%;
+    background-color: aliceblue;
+}
+
+#imput_div{
+    text-align: center;
+}
+#imput_div input{
+    
+    height: 70px;
+    width: 300px;
+    text-align: right;
+    padding: 15px 10px;
+    
+    font-size: 45px;
+    margin-bottom: 35px;
+   border: 1px solid black;
+   border-radius: 20px;
+   box-shadow: 2px 2px 5px 5px rebeccapurple;
+
+}
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+
+}
+
+button{
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 15%;
+    background-color: rgb(227, 195, 156);
+   box-shadow: 5px 5px 5px 5px;
+   cursor: pointer;
+    
+}
+
+.small_button{
+    background-color: aliceblue;
+
+}
+.equality{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    border-radius: 10px;
+}
