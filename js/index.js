@@ -14,7 +14,7 @@ function deleteLast(){
       
 }
 
-// Need function for delete all and restart text area
+// Need function for delete all and restart text area as empty string
 
 
 function showEmpty(){
