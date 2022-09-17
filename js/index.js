@@ -8,6 +8,7 @@ function typeValue(numberOrSymbol){
 
 }
 //Need function for delete last number using leng of text_area and go back by 1
+
 function deleteLast(){
 
     result.value = result.value.slice(0,-1);

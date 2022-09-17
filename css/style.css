@@ -4,7 +4,7 @@
     position:relative; 
     background-image: url("/assets/img/imagebg.jpeg");
     background-repeat: no-repeat;
-    background-size: 1700px;
+    background-size: 150vh;
 }
 
 #calculator{
@@ -24,6 +24,7 @@
 }
 
 #imput_div{
+    
     text-align: center;
 }
 #imput_div input{
